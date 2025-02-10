@@ -58,6 +58,7 @@ packaging==24.1
 platformdirs==4.2.2
 
 # Logging & Debugging
+python-dotenv==1.0.1
 python-json-logger==2.0.7
 colorama==0.4.6
 psutil==6.0.0
