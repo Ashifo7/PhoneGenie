@@ -16,6 +16,8 @@ def create_app():
     
     return app
 
+# ✅ Move `app = create_app()` outside so Gunicorn can find it
+app = create_app()  # ✅ Now Gunicorn will see `app`
+
 if __name__ == "__main__":
-    app = create_app()
     app.run(debug=True)
